@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <script> %code% </script>
+  <title>Szabi sub-ver.1.</title>
+</head>
+<body>
+
+  <div class="flex-canvas">
+
+    <div class="centered">
+
+      <div class="canvas left">
+
+<div class="grid-container" id="rect">
+
+  <input class="jscolorG jscolor" onchange="update(this.jscolor)" value="FF1231">
+
+<script>
+function update(jscolor) {
+    document.getElementById('rect').style.backgroundColor = '#' + jscolor
+}
+  </script>
+
+ <div class="icon1">
+   <img id="imgId" src="https://i.imgur.com/IMmN4U2.png" width="110" height="110" title="Speciális"/></div>
+
+  <div class="icon2"><img src="https://i.imgur.com/zaGhKU2.png" width="110" height="110"title="Virtuális tér"/></div>
+
+  <div class="icon3"><img src="https://i.imgur.com/3ZQUmXM.png" width="110" height="110"title="Vezető"/></div>
+
+  <div class="icon4"><img src="https://i.imgur.com/oiCZqyJ.png" width="110" height="110"title="Normbenz (színes)"/></div>
+
+  <div class="icon5"><img src="https://i.imgur.com/PG4Z7cX.png" width="110" height="110"title="Lágy készség"/></div>
+
+  <div class="icon6"><img src="https://i.imgur.com/MjnCkql.png" width="110" height="110"title="Koordinátor"/></div>
+
+  <div class="icon7"><img src="https://i.imgur.com/cvjxAE0.png" width="110" height="110"title="Kártya"/></div>
+
+ <div class="icon8"><img src="https://i.imgur.com/wqhlvWy.png" width="110" height="130"title="Befizetés"/></div>
+
+        </div>
+
+      </div></div>
+
+
+  <div class="canvas right">
+  <div class="centered">
+
+        <button class="jscolorB jscolor {valueElement:'chosen-value', onFineChange:'setTextColor(this)'}"></button>
+
+        <button class="jscolorB jscolor {valueElement:'chosen-value', onFineChange:'setTextColor(this)'}"></button>
+
+        <button class="jscolorB jscolor {valueElement:'chosen-value', onFineChange:'setTextColor(this)'}"></button>
+
+        <button class="jscolorB last-bottom jscolor {valueElement:'chosen-value', onFineChange:'setTextColor(this)'}"></button>
+
+  </div></div>
+    </div>
+
+</body>
+</html>
